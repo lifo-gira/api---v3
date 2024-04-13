@@ -3,7 +3,7 @@ from datetime import datetime
 from bson import ObjectId
 from models import *
 
-client = motor_asyncio.AsyncIOMotorClient("mongodb+srv://wadfirm2023:wadfirm2023@wadco.o2m22gs.mongodb.net/?retryWrites=true&w=majority")
+client = motor_asyncio.AsyncIOMotorClient("mongodb+srv://wadfirm2023:wadfirm2023@cluster0.6x7qnsp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client.Main
 users = db.users
 metrics = db.metrics
